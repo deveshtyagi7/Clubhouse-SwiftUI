@@ -24,6 +24,16 @@
 		10C83EC42702E4FC00DB8841 /* ButtonHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83EC32702E4FC00DB8841 /* ButtonHomeView.swift */; };
 		10C83EC62702F4A200DB8841 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83EC52702F4A200DB8841 /* ProfileHeaderView.swift */; };
 		10C83EC92702F5A800DB8841 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83EC82702F5A800DB8841 /* ProfileView.swift */; };
+		10C83ECC2703193D00DB8841 /* PersonImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83ECB2703193D00DB8841 /* PersonImageView.swift */; };
+		10C83ECF27031AFA00DB8841 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83ECE27031AFA00DB8841 /* NewView.swift */; };
+		10C83ED127031B8500DB8841 /* MuteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83ED027031B8500DB8841 /* MuteView.swift */; };
+		10C83ED327031D4E00DB8841 /* OtherPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83ED227031D4E00DB8841 /* OtherPersonView.swift */; };
+		10C83ED52703208600DB8841 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83ED42703208600DB8841 /* PersonView.swift */; };
+		10C83ED72703231B00DB8841 /* OthersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83ED62703231B00DB8841 /* OthersView.swift */; };
+		10C83ED927032C4C00DB8841 /* HostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83ED827032C4C00DB8841 /* HostView.swift */; };
+		10C83EDB27032E3B00DB8841 /* BottomRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83EDA27032E3B00DB8841 /* BottomRoomView.swift */; };
+		10C83EDD270330E800DB8841 /* RoomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83EDC270330E800DB8841 /* RoomHeaderView.swift */; };
+		10C83EDF2703320D00DB8841 /* ActiveRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C83EDE2703320D00DB8841 /* ActiveRoomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +50,6 @@
 		10C83EAD2701CD9900DB8841 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		10C83EAF2701CD9900DB8841 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		10C83EB02701CD9900DB8841 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
-		10C83EB12701CD9900DB8841 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		10C83EB22701CD9900DB8841 /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		10C83EB32701CD9900DB8841 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		10C83EB42701CD9900DB8841 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -50,6 +59,18 @@
 		10C83EC32702E4FC00DB8841 /* ButtonHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHomeView.swift; sourceTree = "<group>"; };
 		10C83EC52702F4A200DB8841 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		10C83EC82702F5A800DB8841 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		10C83ECB2703193D00DB8841 /* PersonImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonImageView.swift; sourceTree = "<group>"; };
+		10C83ECE27031AFA00DB8841 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		10C83ED027031B8500DB8841 /* MuteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteView.swift; sourceTree = "<group>"; };
+		10C83ED227031D4E00DB8841 /* OtherPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPersonView.swift; sourceTree = "<group>"; };
+		10C83ED42703208600DB8841 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		10C83ED62703231B00DB8841 /* OthersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersView.swift; sourceTree = "<group>"; };
+		10C83ED827032C4C00DB8841 /* HostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostView.swift; sourceTree = "<group>"; };
+		10C83EDA27032E3B00DB8841 /* BottomRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRoomView.swift; sourceTree = "<group>"; };
+		10C83EDC270330E800DB8841 /* RoomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomHeaderView.swift; sourceTree = "<group>"; };
+		10C83EDE2703320D00DB8841 /* ActiveRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRoomView.swift; sourceTree = "<group>"; };
+		10C83EE0270434BB00DB8841 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Bold.ttf"; path = "../../../../../../Downloads/Nunito_Sans/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		10C83EE12704351B00DB8841 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +103,7 @@
 		10C83E842701C9E200DB8841 /* Clubhouse */ = {
 			isa = PBXGroup;
 			children = (
+				10C83EE12704351B00DB8841 /* NunitoSans-Bold.ttf */,
 				10C83EB92701CE8400DB8841 /* Views */,
 				10C83EBD2701CEDD00DB8841 /* Preview Content */,
 				10C83EB82701CDA600DB8841 /* Resources */,
@@ -132,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				10C83EAF2701CD9900DB8841 /* NunitoSans-ExtraBold.ttf */,
-				10C83EB12701CD9900DB8841 /* NunitoSans-Bold.ttf */,
+				10C83EE0270434BB00DB8841 /* NunitoSans-Bold.ttf */,
 				10C83EB22701CD9900DB8841 /* NunitoSans-SemiBold.ttf */,
 				10C83EB02701CD9900DB8841 /* NunitoSans-Regular.ttf */,
 				10C83EB42701CD9900DB8841 /* Colors.swift */,
@@ -146,6 +168,7 @@
 		10C83EB92701CE8400DB8841 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				10C83ECA2703192500DB8841 /* Rooms */,
 				10C83EC72702F59C00DB8841 /* Profile */,
 				10C83EBE2701D21D00DB8841 /* HomeFeed */,
 				10C83EBA2701CE8E00DB8841 /* Headers */,
@@ -186,6 +209,31 @@
 				10C83EC82702F5A800DB8841 /* ProfileView.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		10C83ECA2703192500DB8841 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				10C83ED827032C4C00DB8841 /* HostView.swift */,
+				10C83EDA27032E3B00DB8841 /* BottomRoomView.swift */,
+				10C83ED62703231B00DB8841 /* OthersView.swift */,
+				10C83EDC270330E800DB8841 /* RoomHeaderView.swift */,
+				10C83EDE2703320D00DB8841 /* ActiveRoomView.swift */,
+				10C83ECD2703194800DB8841 /* Person */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		10C83ECD2703194800DB8841 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				10C83ECB2703193D00DB8841 /* PersonImageView.swift */,
+				10C83ECE27031AFA00DB8841 /* NewView.swift */,
+				10C83ED027031B8500DB8841 /* MuteView.swift */,
+				10C83ED227031D4E00DB8841 /* OtherPersonView.swift */,
+				10C83ED42703208600DB8841 /* PersonView.swift */,
+			);
+			path = Person;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,15 +310,25 @@
 				10C83EB72701CD9900DB8841 /* Colors.swift in Sources */,
 				10C83EA62701CD3100DB8841 /* UpcomingRoomModel.swift in Sources */,
 				10C83EA42701CD3100DB8841 /* FeedItem.swift in Sources */,
+				10C83EDF2703320D00DB8841 /* ActiveRoomView.swift in Sources */,
 				10C83EA52701CD3100DB8841 /* FeedRoom.swift in Sources */,
+				10C83ED52703208600DB8841 /* PersonView.swift in Sources */,
+				10C83ECC2703193D00DB8841 /* PersonImageView.swift in Sources */,
 				10C83EB62701CD9900DB8841 /* Font.swift in Sources */,
+				10C83EDD270330E800DB8841 /* RoomHeaderView.swift in Sources */,
+				10C83ED327031D4E00DB8841 /* OtherPersonView.swift in Sources */,
 				10C83EBC2701CEA800DB8841 /* HomeHeaderView.swift in Sources */,
 				10C83EC92702F5A800DB8841 /* ProfileView.swift in Sources */,
 				10C83E882701C9E200DB8841 /* ContentView.swift in Sources */,
+				10C83ED927032C4C00DB8841 /* HostView.swift in Sources */,
 				10C83E962701CC2B00DB8841 /* RoomViewModel.swift in Sources */,
+				10C83ECF27031AFA00DB8841 /* NewView.swift in Sources */,
+				10C83ED72703231B00DB8841 /* OthersView.swift in Sources */,
 				10C83EC22701E5FE00DB8841 /* RoomView.swift in Sources */,
 				10C83E862701C9E200DB8841 /* ClubhouseApp.swift in Sources */,
 				10C83EC62702F4A200DB8841 /* ProfileHeaderView.swift in Sources */,
+				10C83EDB27032E3B00DB8841 /* BottomRoomView.swift in Sources */,
+				10C83ED127031B8500DB8841 /* MuteView.swift in Sources */,
 				10C83EC02701D23F00DB8841 /* UpcomingRoomsView.swift in Sources */,
 				10C83EC42702E4FC00DB8841 /* ButtonHomeView.swift in Sources */,
 			);

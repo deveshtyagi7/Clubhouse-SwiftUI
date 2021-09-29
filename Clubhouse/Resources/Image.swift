@@ -33,4 +33,7 @@ extension Image {
     static let ellipsis = Image(systemName: "ellipsis")
     static let star = Image(systemName: "staroflife.fill")
     static let mute = Image(systemName: "speaker.slash.fill")
+    static let twitter = Image("twitter")
+    static let insta = Image("insta")
+    
 }

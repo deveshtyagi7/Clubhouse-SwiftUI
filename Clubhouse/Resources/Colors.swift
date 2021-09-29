@@ -22,4 +22,5 @@ extension Color {
     static let customSecondaryBackground = Color("SecondaryBackground")
     static let textBlack = Color("TextBlack")
     static let textYellow = Color("TextYellow")
+    static let customLightBlue = Color("CustomLightBlue")
 }

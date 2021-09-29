@@ -42,6 +42,7 @@ struct HomeHeaderView: View {
             
         }
         .font(Font.Nunito.bold(size: 28))
+        .foregroundColor(Color.textBlack)
         .frame(maxWidth: .infinity, maxHeight: 50)
         .padding(.horizontal , 15)
     }

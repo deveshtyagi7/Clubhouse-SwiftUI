@@ -33,9 +33,12 @@ struct ProfileHeaderView: View {
             Spacer()
             
             Text("@")
+                .font(Font.Nunito.extraBold(size: 28))
+                .padding(.top, 5)
+            Image(systemName: "square.and.arrow.up")
             Image.gear
         }
-        .font(Font.Nunito.bold(size: 24))
+        .font(Font.Nunito.bold(size: 28))
         .foregroundColor(Color.textBlack)
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 15)

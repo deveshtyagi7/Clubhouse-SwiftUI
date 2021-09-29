@@ -32,17 +32,18 @@ struct ProfileView: View {
                     
                     Text("Devesh Tyagi")
                         .font(Font.Nunito.bold(size: 16))
+                        .padding(.top, 10)
                     Text("@deveshtyagi7")
                         .font(Font.Nunito.bold(size: 12))
-                        .padding(.top, 1)
+                        .padding(.top, 4)
                     // Following and Follower Stack
                     HStack{
                         HStack(spacing : 0){
                             Text("112")
                                 .font(Font.Nunito.extraBold(size: 16))
-                                .padding(.trailing, 5)
+                                .padding(.trailing, 3)
                             
-                            Text("followers")
+                           Text("followers")
                                 .font(Font.Nunito.semiBold(size: 12))
                                 
                         }
@@ -51,7 +52,7 @@ struct ProfileView: View {
                         HStack(spacing : 0){
                             Text("21")
                                 .font(Font.Nunito.extraBold(size: 16))
-                                .padding(.trailing, 5)
+                                .padding(.trailing, 3)
                             
                             Text("following")
                                 .font(Font.Nunito.semiBold(size: 12))
@@ -61,9 +62,42 @@ struct ProfileView: View {
                     .padding(.top, 15)
                     
                     //Bio
-                    Text("iOS Developer \n \nhttps://www.instagram.com/deveshtyagi7/")
-                        .padding(.top, 10)
-                        .font(Font.Nunito.semiBold(size: 14))
+                    Text("iOS Developer")
+                        .padding(.top, 25)
+                        .font(Font.Nunito.semiBold(size: 15))
+                    //Social Media Handles
+                    HStack{
+                        HStack(spacing: 0){
+                            Image
+                                .twitter
+                                .resizable()
+                                .frame(maxWidth: 25, maxHeight: 25)
+                                .padding(.trailing, 3)
+                            
+                            Text("deveshtyagi77")
+                                .font(Font.Nunito.extraBold(size: 16))
+                        }
+                        .padding(.trailing, 20)
+                       
+                        
+                        HStack(spacing: 0){
+                            Image
+                                .insta
+                                .resizable()
+                                .frame(maxWidth: 25, maxHeight: 25)
+                                .padding(.trailing, 3)
+                                
+                            
+                            Text("Add Instagram")
+                                
+                                
+                        }
+                        .font(Font.Nunito.extraBold(size: 16))
+                        .foregroundColor(Color.customLightBlue)
+                        
+                        
+                    }
+                    .padding(.top, 30)
                     
                     HStack(alignment: .top) {
                         Image("person_0")
@@ -79,10 +113,11 @@ struct ProfileView: View {
                                 .font(Font.Nunito.regular(size: 12)) +
                             
                             Text("Dev")
-                                .font(Font.Nunito.bold(size: 12))
+                                .font(Font.Nunito.bold(size: 14))
                             
                         }
                     }
+                    .padding(.top , 30)
                 }
                 .foregroundColor(Color.textBlack)
                 .padding(.horizontal, 15)
